@@ -1,0 +1,16 @@
+---
+# tasks file for 001_create_vm_prox
+- name: Create new container with hookscript and description
+  community.general.proxmox:
+    api_user: "{{ api_user }}"
+    api_password: "{{ api_password }}"
+    api_host: "{{ api_host }}"
+    password: 123456
+    hostname: "{{ inventory_hostname }}"
+    clone: "ansi-client"
+    cores: 2
+    cpu: 1
+    full: true
+    memory: 1024
+    state: present
+    description: created with ansible

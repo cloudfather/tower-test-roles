@@ -1,0 +1,5 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - 001_create_vm_prox
