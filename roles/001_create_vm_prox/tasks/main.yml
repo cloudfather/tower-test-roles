@@ -1,6 +1,6 @@
 ---
 - name: Create new vm
-  community.general.proxmox:
+  proxmox:
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
