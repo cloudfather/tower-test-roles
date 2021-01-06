@@ -1,7 +1,4 @@
 ---
 - hosts: all
-  become: true
-  collections:
-    - community.general.proxmox
   roles:
     - 001_create_vm_prox
