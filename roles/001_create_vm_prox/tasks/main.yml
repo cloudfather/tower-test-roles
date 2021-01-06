@@ -1,7 +1,7 @@
 ---
 - name: Create new vm
   proxmox_kvm:
-    name: "{{ inventory_hostname }}"
+    name: player01.dev.cloudcenter.internal
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
