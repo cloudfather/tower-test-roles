@@ -7,8 +7,8 @@
     api_host: "{{ api_host }}"
     #    hostname: "{{ inventory_hostname }}"
     clone: "ansi-client"
-    cores: 2
-    cpu: 1
+    cores: "2"
+    cpu: "1"
     full: true
     memory: 1024
     state: present
