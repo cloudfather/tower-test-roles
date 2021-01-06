@@ -1,3 +1,4 @@
 ---
 collections:
-  - name: community.general.proxmox
+  - community.general.proxmox
+  - community.general.proxmox_kvm
