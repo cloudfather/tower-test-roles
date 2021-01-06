@@ -6,6 +6,7 @@
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
     #    hostname: "{{ inventory_hostname }}"
+    node: "hetz"
     clone: "ansi-client"
     cores: "2"
     cpu: "1"
