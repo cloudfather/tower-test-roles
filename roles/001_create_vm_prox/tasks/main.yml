@@ -1,6 +1,6 @@
 ---
 - name: Create new vm
-  community.general.proxmox: 
+  community.general.proxmox:
     name: player01.dev.cloudcenter.internal
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
