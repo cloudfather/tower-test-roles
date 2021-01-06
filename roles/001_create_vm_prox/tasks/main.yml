@@ -5,7 +5,7 @@
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
-    clone: o
+    clone: "ansi-client"
     storage: "local-lvm"
     target: "hetz"
     node: "hetz"
