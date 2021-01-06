@@ -1,7 +1,7 @@
 ---
 - name: Create new vm
   proxmox:
-    name: player01.dev.cloudcenter.internal
+    host_name: player01.dev.cloudcenter.internal
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
@@ -12,6 +12,5 @@
     cpu: "1"
     full: true
     memory: 1024
-    state: present
     description: created with ansible
   delegate_to: localhost
