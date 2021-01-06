@@ -1,12 +1,12 @@
 ---
 - name: Create new vm
   proxmox_kvm:
+    name: "{{ inventory_hostname }}"
     api_user: "{{ api_user }}"
     api_password: "{{ api_password }}"
     api_host: "{{ api_host }}"
     password: 123456
     #    hostname: "{{ inventory_hostname }}"
-    hostname: example.com
     clone: "ansi-client"
     cores: 2
     cpu: 1
